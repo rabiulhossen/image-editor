@@ -1,0 +1,28 @@
+.image-editor {
+   width: 100vw;
+   height: 100vh;
+   background-color: wheat;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.card {
+   padding: 25px;
+   width: 700px;
+   height: 80%;
+   background-color: azure;
+   box-shadow: 0 8px 16px 0 rgb(201, 201, 201);
+   border-radius: 8px;
+}
+
+.card-header {
+   text-align: center;
+   padding-bottom: 15px;
+
+   h2 {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: rgb(61, 9, 77);
+   }
+}
