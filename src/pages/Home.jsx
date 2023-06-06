@@ -22,13 +22,10 @@ function Home() {
                         <div className="filter-section">
                            <span>Filter</span>
                            <div className="filter-keys">
-                              {filterElement.map((filter,index) => {
+                              {filterElement.map((filter, index) => {
                                  return (
-                                    <button
-                                       className="filter-key"
-                                       key={index}>
-                                     {filter.name}
-                                    
+                                    <button className="filter-key" key={index}>
+                                       {filter.name}
                                     </button>
                                  );
                               })}

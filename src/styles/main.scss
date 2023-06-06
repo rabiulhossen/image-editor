@@ -26,3 +26,45 @@
       color: rgb(61, 9, 77);
    }
 }
+
+.card-body {
+   display: flex;
+   justify-content: center;
+   .sidebar {
+      .side-body {
+         width: 250px;
+         height: 300px;
+         border: 1px solid tomato;
+         margin-right: 10px;
+         padding: 10px;
+         span {
+            font-size: 15px;
+            color: rgb(127, 177, 162);
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+            text-align: center;
+         }
+         .filter-keys {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            button.active{
+               background-color: tomato;
+               color: #fff;
+            }
+            button{
+               padding: 9px;
+               cursor: pointer
+               ;
+               background-color: blanchedalmond;
+               outline: none;
+               border-radius: 10px;
+
+
+            }
+         }
+      }
+   }
+}
