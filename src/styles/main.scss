@@ -38,13 +38,15 @@
          margin-right: 10px;
          padding: 10px;
          span {
-            font-size: 15px;
-            color: rgb(127, 177, 162);
+            font-size: 18px;
+            color: rgb(181, 12, 248);
             text-transform: uppercase;
             font-weight: bold;
             margin-bottom: 10px;
             display: block;
             text-align: center;
+            text-shadow: 2px 1px 0px #0c0122;
+            letter-spacing: 3px;
          }
          .filter-keys {
             display: grid;
@@ -54,6 +56,10 @@
                background-color: tomato;
                color: #fff;
             }
+            button:hover{
+               transform: translateY(60) .4s ease;
+               background-color:rgb(131, 240, 240) ;
+            }
             button{
                padding: 9px;
                cursor: pointer
@@ -61,6 +67,11 @@
                background-color: blanchedalmond;
                outline: none;
                border-radius: 10px;
+               font-size: 700;
+               font-size: 16px;
+               border: 2px solid transparent;
+
+
 
 
             }
