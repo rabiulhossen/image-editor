@@ -14,7 +14,7 @@ function Home() {
          <div className="image-editor">
             <div className="card">
                <div className="card-header">
-                  <h2>image editor</h2>
+                  <h2>TechEcho image editor</h2>
                </div>
                <div className="card-body">
                   <div className="sidebar">
